@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 from sudoku.sudoku import Sudoku
 
+print("Hello from main.py")
+
 board = [
     {
         "fila": 1,
